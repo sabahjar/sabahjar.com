@@ -1487,6 +1487,24 @@ body.is-preload #bg:before {
         margin-bottom: 10px; /* إضافة مسافة بين الصور للحفاظ على التباعد */
     }
 }
+@media screen and (max-width: 375px) {
+
+	#wrapper {
+		padding: 0.5rem;
+	}
+	.image-wrapper img {
+        max-width: 70%; /* جعل الصور تأخذ 90% من عرض الشاشة */
+        height: auto; /* الحفاظ على نسبة الأبعاد */
+        margin: 0 auto; /* توسيط الصور داخل الحاوية */
+    }
+    .image-container {
+       /* flex-wrap: wrap; /* السماح بتكديس الصور عموديًا عند عرضها على شاشات صغيرة */
+        justify-content: center; /* توسيط الحاوية */
+    }
+    .image-wrapper {
+        margin-bottom: 10px; /* إضافة مسافة بين الصور للحفاظ على التباعد */
+    }
+}
 
 /* Header */
 
