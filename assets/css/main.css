@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url(all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap");
 
 /*
 	Dimension by HTML5 UP
@@ -332,6 +333,12 @@ textarea {
 	font-weight: 300;
 	font-size: 1rem;
 	line-height: 1.65;
+}
+
+.arabic-title {
+	font-family: "Cairo", "Noto Kufi Arabic", "Tahoma", sans-serif;
+	font-weight: 600;
+	letter-spacing: 0;
 }
 
 a {
